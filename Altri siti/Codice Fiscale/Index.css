@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, white, rgb(161, 236, 161));
+}
+#Quadrato-titolo{
+    width: 600px;
+    height: 100px;
+    background: rgb(30, 156, 30);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    bottom: 490px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#Quadrato-campi{
+    background: whitesmoke;
+    height: 500px;
+    width: 620px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+#Titolo{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 120px;
+    bottom: -20px;
+}
+#Subtitle{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 165px;
+}
+.Campi-input{
+    position: relative;
+}
+#Textbox-cognome, #Textbox-nome, #Textbox-sesso, #Textbox-data, #Textbox-luogo-nascita, #Textbox-provincia, #Codice-fiscale{
+    position: relative;
+    bottom: -150px;
+    left: 75px;
+    color: black;
+}
+#Textbox-nome{
+    left: 98px;
+}
+#Textbox-sesso{
+    left: 198px;
+}
+#Textbox-data{
+    left: 46px;
+}
+#Textbox-luogo-nascita{
+    left: 40px;
+}
+#Textbox-provincia{
+    left: 34px;
+}
+#Cognome, #Nome, #Data, #Luogo-nascita, #Provincia{
+    width: 300px;
+    position: relative;
+    bottom: -130px;
+    left: 250px;
+}
+#Data{
+    width: 100px;
+}
+#Provincia{
+    width: 45px;
+}
+#Sesso{
+    position: relative;
+    top: 132px;
+    left: 250px;
+}
+#Codice-fiscale{
+    position: relative;
+    top: 165px;
+    left: 65px;
+    background-color: rgb(189, 187, 179);
+    width: 490px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+}
+#Bottone-calcolo{
+    background-color: rgb(30, 156, 30);
+    color: white;
+    width: 490px;
+    position: relative;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 6px;
+    border: none;
+}
+.Hidden{
+    visibility: hidden;
+}

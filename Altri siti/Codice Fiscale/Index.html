@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Identity</title>
+    <link rel="stylesheet" type="text/css" href="Index.css">
+</head>
+<body>
+
+    <div id="Quadrato-campi">
+
+        <div class="Campi-input">
+
+        <div id="Textbox-cognome">Inserisci il tuo Cognome: </div>
+        <input type="text" id="Cognome" placeholder="Cognome">
+
+
+        <div id="Textbox-nome">Inserisci il tuo Nome: </div>
+        <input type="text" id="Nome" placeholder="Nome">
+        
+        <div id="Textbox-sesso">Sesso: </div>
+        <select name="Sesso" id="Sesso">
+            <option value ="Maschio">Maschio</option>
+            <option value ="Femmina">Femmina</option>
+        </select>
+
+        <div id="Textbox-data">Inserisci la tua data di nascita: </div>
+        <input type="date" id="Data">
+
+        <div id="Textbox-luogo-nascita">Inserisci il tuo luogo di nascita: </div>
+        <input type="text" id="Luogo-nascita">
+
+        <div id="Textbox-provincia">Inserisci la tua Provincia (sigla): </div>
+        <input type="text" id="Provincia">
+
+        <!--<input type="submit" id="Bottone-calcolo" value="Calcola il tuo codice fiscale" onclick="click()">-->
+        <button type="submit" id="Bottone-calcolo">Calcola il tuo codice fiscale</button>
+
+        <div>
+            <div type="text"></div>
+            <p  id="Codice-fiscale"></p>
+        </div>
+
+        </div>
+
+        
+    </div>
+    <div id="Quadrato-titolo">
+        <b id="Titolo">Calcolo codice fiscale</b><br>
+        <p id="Subtitle">Calcola sibito il to codice fiscale online</p>
+    </div>
+    
+
+</body>
+<script src="Index.js"></script>
+</html>

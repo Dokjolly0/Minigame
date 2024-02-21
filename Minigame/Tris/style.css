@@ -1,0 +1,54 @@
+/*basic*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Gioco*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+}
+.quadrati {
+  width: 500px;
+  height: 500px;
+}
+.quadrato {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(240, 231, 221);
+  display: inline-block;
+}
+.quadrato:hover {
+  background-color: rgb(240, 200, 155);
+}
+.x {
+  background-image: url(./img/x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.o {
+  background-image: url(./img/o.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+}
+h1,
+p,
+#rivincita {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#rivincita {
+  background: green;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}

@@ -1,0 +1,90 @@
+/*Struttura*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 150px;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  text-align: center;
+}
+/*Gioco*/
+.player {
+  /* border: 2px solid red; */
+  width: auto;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+}
+.playerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bot {
+  /* border: 2px solid red; */
+  width: auto;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+}
+.botButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#playerCarta,
+#playerSasso,
+#playerForbici {
+  color: white;
+  background: blue;
+  border-radius: 12px;
+  margin: 25px;
+  padding: 10px;
+}
+#playerCarta:hover,
+#playerSasso:hover,
+#playerForbici:hover {
+  background: #0b1e8a;
+}
+#cpuCarta,
+#cpuSasso,
+#cpuForbici {
+  color: white;
+  background: red;
+  border-radius: 12px;
+  margin: 25px;
+  padding: 10px;
+}
+#cpuCarta:hover,
+#cpuSasso:hover,
+#cpuForbici:hover {
+  background: #8c0808;
+}
+.rematch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rematchButton {
+  background: green;
+  color: white;
+  border-radius: 12px;
+  padding: 4px;
+  position: absolute;
+  top: 300px;
+}
+.Hidden {
+  display: none;
+}
+.Show {
+  display: block !important;
+}
