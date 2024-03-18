@@ -8,8 +8,6 @@ let scelta = "x";
 let vincita = false;
 let callbackFunction;
 
-//Aggiungi listener
-//Questo array servira per contenere tutti i listener
 let callbacks = [];
 for (let i = 0; i < 9; i++) {
   //Dichiari una let che assegnerai alla funzione

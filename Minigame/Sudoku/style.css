@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*9 Riquadri*/
+.sudoku_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+
+.sudoku_quadrato_1 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_2 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_3 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_4 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_5 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_6 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_7 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_8 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+.sudoku_quadrato_9 {
+  width: 30%;
+  height: 30%;
+  /* border: 1px solid red; */
+}
+
+/*9 Celle*/
+.celle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.cella_1 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_2 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_3 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_4 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_5 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_6 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_7 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_8 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
+.cella_9 {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+}
