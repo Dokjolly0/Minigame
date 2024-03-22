@@ -1,0 +1,55 @@
+#A {
+  color: aqua;
+}
+#link1 {
+  color: aqua;
+  text-decoration: none;
+}
+#link1:hover {
+  color: aqua;
+  text-decoration-line: underline;
+}
+#B {
+  color: brown;
+}
+#link2 {
+  color: brown;
+  text-decoration: none;
+}
+#link2:hover {
+  color: brown;
+  text-decoration-line: underline;
+}
+#C {
+  color: blueviolet;
+}
+#link3 {
+  color: blueviolet;
+  text-decoration: none;
+}
+#link3:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+#D {
+  color: green;
+}
+#link4 {
+  color: green;
+  text-decoration: none;
+}
+#link4:hover {
+  color: green;
+  text-decoration: underline;
+}
+#E {
+  color: blue;
+}
+#link5 {
+  color: blue;
+  text-decoration: none;
+}
+#link5:hover {
+  color: blue;
+  text-decoration: underline;
+}
