@@ -1,3 +1,4 @@
+/* Html formatting */
 body {
   background-color: #f0f4f9; /* Sfondo ispirato a Genshin Impact */
   background-image: url("./img/Monstat2.webp"); /* URL dell'immagine di sfondo */
@@ -8,11 +9,15 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Titolo */
 h1 {
   color: #e5e5e5; /* Testo bianco */
   text-align: center;
-  margin-top: 50px;
+  flex-grow: 1;
 }
+
+/* Personaggi */
 .character {
   width: 200px;
   margin: 20px auto;
@@ -42,13 +47,20 @@ h1 {
   color: #5e5e5e; /* Testo grigio scuro */
   text-align: center;
 }
+p {
+  display: none;
+}
+
+/* Search bar */
 .search-bar {
   text-align: center;
   margin-bottom: 20px;
+  width: 100%;
   /* border: 1px solid red; */
 }
 
 .search-bar input[type="text"] {
+  align-items: right;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -63,14 +75,20 @@ h1 {
   border-color: #007bff; /* Cambia il colore del bordo quando la barra di ricerca ottiene lo stato di focus */
   outline: none;
 }
-p {
-  display: none;
-}
+
 .header {
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
   position: fixed;
-  top: 60px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+}
+.characters {
+  /* border: 1px solid red; */
+  position: relative;
+  top: 80px;
+  z-index: 0;
 }
 
 #filtro {
@@ -79,6 +97,7 @@ p {
   top: 15px;
 }
 
+/* Media query */
 @media (min-width: 897px) {
   .header {
     position: fixed;
@@ -110,5 +129,6 @@ p {
 @media (max-width: 768px) {
   .characters {
     grid-template-columns: repeat(2, 1fr);
+    top: 160px;
   }
 }

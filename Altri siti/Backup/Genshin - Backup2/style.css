@@ -1,3 +1,4 @@
+/* Html formatting */
 body {
   background-color: #f0f4f9; /* Sfondo ispirato a Genshin Impact */
   background-image: url("./img/Monstat2.webp"); /* URL dell'immagine di sfondo */
@@ -8,11 +9,19 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Titolo */
 h1 {
   color: #e5e5e5; /* Testo bianco */
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  width: 100vw;
+  border: 1px solid red;
+  /* clear: both; */
+  /* position: absolute; */
 }
+
+/* Personaggi */
 .character {
   width: 200px;
   margin: 20px auto;
@@ -42,9 +51,16 @@ h1 {
   color: #5e5e5e; /* Testo grigio scuro */
   text-align: center;
 }
+p {
+  display: none;
+}
+
+/* Search bar */
 .search-bar {
   text-align: center;
   margin-bottom: 20px;
+  float: right;
+  /* border: 1px solid red; */
 }
 
 .search-bar input[type="text"] {
@@ -62,6 +78,64 @@ h1 {
   border-color: #007bff; /* Cambia il colore del bordo quando la barra di ricerca ottiene lo stato di focus */
   outline: none;
 }
-p {
-  display: none;
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid red;
+  z-index: 1;
+  width: 100%;
+  clear: both; /* Pulisce entrambi i lati */
+}
+.characters {
+  /* border: 1px solid red; */
+  position: relative;
+  top: 140px;
+  z-index: 0;
+}
+
+#filtro {
+  width: 30px;
+  position: relative;
+  top: 15px;
+  border: 1px solid red;
+}
+
+/* Media query */
+@media (min-width: 897px) {
+  .header {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 2700px) {
+  .characters {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (max-width: 1700px) {
+  .characters {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 1699px) {
+  .characters {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 1250px) {
+  .characters {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .characters {
+    grid-template-columns: repeat(2, 1fr);
+    top: 160px;
+  }
 }

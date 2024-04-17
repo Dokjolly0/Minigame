@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Genshin Impact Style</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
   </head>
   <body>
-    <h1>Personaggi di Genshin Impact</h1>
-
-    <div class="search-bar">
-      <input type="text" placeholder="Cerca un personaggio..." />
+    <div class="header">
+      <h1>Personaggi di Genshin Impact</h1>
+      <!-- <h1>Header</h1> -->
+      <div class="search-bar">
+        <input type="text" placeholder="Cerca un personaggio..." />
+        <img id="filtro" src="./img/Filter.png" alt="Filter" />
+      </div>
     </div>
 
     <div class="characters">
-      <div class="character">
+      <div class="character Traveler">
         <a href="https://genshin-impact.fandom.com/wiki/Traveler">
           <img src="./img/Traveler.png" alt="Traveler" />
         </a>
@@ -22,7 +26,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Amber">
         <a href="https://genshin-impact.fandom.com/wiki/Amber">
           <img src="./img/Amber.jpg" alt="Amber" />
         </a>
@@ -30,7 +34,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Barbara">
         <a href="https://genshin-impact.fandom.com/wiki/Barbara">
           <img src="./img/Barbara.jpg" alt="Barbara" />
         </a>
@@ -38,7 +42,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Beidou">
         <a href="https://genshin-impact.fandom.com/wiki/Beidou">
           <img src="./img/Beidou.jpg" alt="Beidou" />
         </a>
@@ -46,7 +50,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Bennet">
         <a href="https://genshin-impact.fandom.com/wiki/Bennet">
           <img src="./img/Bennet.jpg" alt="Bennet" />
         </a>
@@ -54,7 +58,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Chongyun">
         <a href="https://genshin-impact.fandom.com/wiki/Chongyun">
           <img src="./img/Chongyun.jpg" alt="Chongyun" />
         </a>
@@ -62,7 +66,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Diluc">
         <a href="https://genshin-impact.fandom.com/wiki/Diluc">
           <img src="./img/Diluc.webp" alt="Diluc" />
         </a>
@@ -70,7 +74,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Fischl">
         <a href="https://genshin-impact.fandom.com/wiki/Fischl">
           <img src="./img/Fischl.jpg" alt="Fischl" />
         </a>
@@ -78,7 +82,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Jean">
         <a href="https://genshin-impact.fandom.com/wiki/Jean">
           <img src="./img/Jean.png" alt="Jean" />
         </a>
@@ -86,7 +90,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Kaeya">
         <a href="https://genshin-impact.fandom.com/wiki/Kaeya">
           <img src="./img/Kaeya.jpg" alt="Kaeya" />
         </a>
@@ -94,7 +98,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Keqing">
         <a href="https://genshin-impact.fandom.com/wiki/Keqing">
           <img src="./img/Kequing.png" alt="Keqing" />
         </a>
@@ -102,7 +106,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Lisa">
         <a href="https://genshin-impact.fandom.com/wiki/Lisa">
           <img src="./img/Lisa.png" alt="Lisa" />
         </a>
@@ -110,7 +114,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Mona">
         <a href="https://genshin-impact.fandom.com/wiki/Mona">
           <img src="./img/Mona.png" alt="Mona" />
         </a>
@@ -118,7 +122,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Ningguang">
         <a href="https://genshin-impact.fandom.com/wiki/Ningguang">
           <img src="./img/Ningguang.jpg" alt="Ningguang" />
         </a>
@@ -126,7 +130,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Noelle">
         <a href="https://genshin-impact.fandom.com/wiki/Noelle">
           <img src="./img/Noelle.webp" alt="Noelle" />
         </a>
@@ -134,7 +138,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Qiqi">
         <a href="https://genshin-impact.fandom.com/wiki/Qiqi">
           <img src="./img/Qiqi.jpeg" alt="Qiqi" />
         </a>
@@ -142,7 +146,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Razor">
         <a href="https://genshin-impact.fandom.com/wiki/Razor">
           <img src="./img/Razor.webp" alt="Razor" />
         </a>
@@ -150,7 +154,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Sucrose">
         <a href="https://genshin-impact.fandom.com/wiki/Sucrose">
           <img src="./img/Sucrose.jpg" alt="Sucrose" />
         </a>
@@ -158,7 +162,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Venti">
         <a href="https://genshin-impact.fandom.com/wiki/Venti">
           <img src="./img/Venti.jpeg" alt="Venti" />
         </a>
@@ -166,7 +170,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Xiangling">
         <a href="https://genshin-impact.fandom.com/wiki/Xiangling">
           <img src="./img/Xiangling.png" alt="Xiangling" />
         </a>
@@ -174,7 +178,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Xingqiu">
         <a href="https://genshin-impact.fandom.com/wiki/Xingqiu">
           <img src="./img/Xingqiu.jpg" alt="Xingqiu" />
         </a>
@@ -182,7 +186,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Klee">
         <a href="https://genshin-impact.fandom.com/wiki/Klee">
           <img src="./img/Klee.avif" alt="Klee" />
         </a>
@@ -190,7 +194,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Diona">
         <a href="https://genshin-impact.fandom.com/wiki/Diona">
           <img src="./img/Diona.png" alt="Diona" />
         </a>
@@ -198,7 +202,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Childe">
         <a href="https://genshin-impact.fandom.com/wiki/Childe">
           <img src="./img/Childe.webp" alt="Childe" />
         </a>
@@ -206,7 +210,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Xinyan">
         <a href="https://genshin-impact.fandom.com/wiki/Xinyan">
           <img src="./img/Xinyan.jpg" alt="Xinyan" />
         </a>
@@ -214,7 +218,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Zhongli">
         <a href="https://genshin-impact.fandom.com/wiki/Zhongli">
           <img src="./img/Zhongli.jpg" alt="Zhongli" />
         </a>
@@ -222,7 +226,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Albedo">
         <a href="https://genshin-impact.fandom.com/wiki/Albedo">
           <img src="./img/ALbedo.jpg" alt="Albedo" />
         </a>
@@ -230,7 +234,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Ganyu">
         <a href="https://genshin-impact.fandom.com/wiki/Ganyu">
           <img src="./img/Ganyu.png" alt="Ganyu" />
         </a>
@@ -238,7 +242,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Xiao">
         <a href="https://genshin-impact.fandom.com/wiki/Xiao">
           <img src="./img/Xiao.gif" alt="Xiao" />
         </a>
@@ -246,7 +250,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Hutao">
         <a href="https://genshin-impact.fandom.com/wiki/Hu Tao">
           <img src="./img/Hu Tao.jpeg" alt="Hu Tao" />
         </a>
@@ -254,7 +258,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Rosaria">
         <a href="https://genshin-impact.fandom.com/wiki/Rosaria">
           <img src="./img/Rosaria.png" alt="Rosaria" />
         </a>
@@ -262,7 +266,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Yanfei">
         <a href="https://genshin-impact.fandom.com/wiki/Yanfei">
           <img src="./img/Yanfei.webp" alt="Yanfei" />
         </a>
@@ -270,7 +274,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Eula">
         <a href="https://genshin-impact.fandom.com/wiki/Eula">
           <img src="./img/Eula.jpg" alt="Eula" />
         </a>
@@ -278,7 +282,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Kazuha">
         <a href="https://genshin-impact.fandom.com/wiki/Kaedehara Kazuha">
           <img src="./img/Kaedehara Kazuha.webp" alt="Kaedehara Kazuha" />
         </a>
@@ -286,7 +290,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Ayaka">
         <a href="https://genshin-impact.fandom.com/wiki/Kamisato Ayaka">
           <img src="./img/Kamisato Ayaka.jpg" alt="Kamisato Ayaka" />
         </a>
@@ -294,7 +298,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Sayu">
         <a href="https://genshin-impact.fandom.com/wiki/Sayu">
           <img src="./img/Sayu.jpg" alt="Sayu" />
         </a>
@@ -302,7 +306,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Yoimiya">
         <a href="https://genshin-impact.fandom.com/wiki/Yoimiya">
           <img src="./img/Yoimiya.jpg" alt="Yoimiya" />
         </a>
@@ -310,7 +314,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Aloy">
         <a href="https://genshin-impact.fandom.com/wiki/Aloy">
           <img src="./img/Aloy.jpg" alt="Aloy" />
         </a>
@@ -318,7 +322,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Sara">
         <a href="https://genshin-impact.fandom.com/wiki/Kujou Sara">
           <img src="./img/Kujou Sara.png" alt="Kujou Sara" />
         </a>
@@ -326,7 +330,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Raiden">
         <a href="https://genshin-impact.fandom.com/wiki/Shogun Raiden">
           <img src="./img/Shogun Raiden.jpg" alt="Shogun Raiden" />
         </a>
@@ -334,15 +338,15 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Sangonomiya Kokomi">
         <a href="https://genshin-impact.fandom.com/wiki/Sangonomiya Kokomi">
           <img src="./img/Sangonomiya Kokomi.jpg" alt="Sangonomiya Kokomi" />
         </a>
-        <h2>Kokomi</h2>
+        <h2>Sangonomiya Kokomi</h2>
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Thoma">
         <a href="https://genshin-impact.fandom.com/wiki/Thoma">
           <img src="./img/Thoma.jpg" alt="Thoma" />
         </a>
@@ -350,7 +354,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Itto">
         <a href="https://genshin-impact.fandom.com/wiki/Arataki Itto">
           <img src="./img/Arataki Itto.jpg" alt="Arataki Itto" />
         </a>
@@ -358,7 +362,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Gorou">
         <a href="https://genshin-impact.fandom.com/wiki/Gorou">
           <img src="./img/Gorou.png" alt="Gorou" />
         </a>
@@ -366,7 +370,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Shenhe">
         <a href="https://genshin-impact.fandom.com/wiki/Shenhe">
           <img src="./img/Shenhe.png" alt="Shenhe" />
         </a>
@@ -374,7 +378,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Yunjin">
         <a href="https://genshin-impact.fandom.com/wiki/Yun Jin">
           <img src="./img/Yun Jin.jpg" alt="Yun Jin" />
         </a>
@@ -382,7 +386,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Yaemiko">
         <a href="https://genshin-impact.fandom.com/wiki/Yae Miko">
           <img src="./img/Yae Miko.jpg" alt="Yae Miko" />
         </a>
@@ -390,7 +394,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Ayato">
         <a href="https://genshin-impact.fandom.com/wiki/Kamisato Ayato">
           <img src="./img/Kamisato Ayato.jpg" alt="Kamisato Ayato" />
         </a>
@@ -398,7 +402,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Yelan">
         <a href="https://genshin-impact.fandom.com/wiki/Yelan">
           <img src="./img/Yelan.jpg" alt="Yelan" />
         </a>
@@ -406,15 +410,15 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Kuki Shinobu">
         <a href="https://genshin-impact.fandom.com/wiki/Kuki Shinobu">
-          <img src="./img/Kuki Shinobu.jpg" alt="Kuki Shinobu" />
+          <img src="./img/kuki.webp" alt="Kuki Shinobu" />
         </a>
         <h2>Kuki Shinobu</h2>
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Heizou">
         <a href="https://genshin-impact.fandom.com/wiki/Shikanoin Heizou">
           <img src="./img/Shikanoin Heizou.png" alt="Shikanoin Heizou" />
         </a>
@@ -422,7 +426,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Collei">
         <a href="https://genshin-impact.fandom.com/wiki/Collei">
           <img src="./img/Collei.png" alt="Collei" />
         </a>
@@ -430,7 +434,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Tighnari">
         <a href="https://genshin-impact.fandom.com/wiki/Tighnari">
           <img src="./img/Tighnari.jpg" alt="Tighnari" />
         </a>
@@ -438,7 +442,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Dori">
         <a href="https://genshin-impact.fandom.com/wiki/Dori">
           <img src="./img/Dori.jpeg" alt="Dori" />
         </a>
@@ -446,7 +450,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Candace">
         <a href="https://genshin-impact.fandom.com/wiki/Candace">
           <img src="./img/Candace.png" alt="Candace" />
         </a>
@@ -454,7 +458,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Cyno">
         <a href="https://genshin-impact.fandom.com/wiki/Cyno">
           <img src="./img/Cyno.png" alt="Cyno" />
         </a>
@@ -462,7 +466,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Nilou">
         <a href="https://genshin-impact.fandom.com/wiki/Nilou">
           <img src="./img/Nilou.png" alt="Nilou" />
         </a>
@@ -470,7 +474,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Nahida">
         <a href="https://genshin-impact.fandom.com/wiki/Nahida">
           <img src="./img/Nahida.jpg" alt="Nahida" />
         </a>
@@ -478,7 +482,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Layla">
         <a href="https://genshin-impact.fandom.com/wiki/Layla">
           <img src="./img/Layla.jpeg" alt="Layla" />
         </a>
@@ -486,7 +490,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Faruzan">
         <a href="https://genshin-impact.fandom.com/wiki/Faruzan">
           <img src="./img/Faruzan.png" alt="Faruzan" />
         </a>
@@ -494,7 +498,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Vagabondo">
         <a href="https://genshin-impact.fandom.com/wiki/Vagabondo">
           <img src="./img/Vagabondo.png" alt="Vagabondo" />
         </a>
@@ -502,7 +506,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Alhaitham">
         <a href="https://genshin-impact.fandom.com/wiki/Alhaitham">
           <img src="./img/Alhaitham.jpg" alt="Alhaitham" />
         </a>
@@ -510,7 +514,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Yaoyao">
         <a href="https://genshin-impact.fandom.com/wiki/Yaoyao">
           <img src="./img/Yaoyao.png" alt="Yaoyao" />
         </a>
@@ -518,7 +522,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Dehya">
         <a href="https://genshin-impact.fandom.com/wiki/Dehya">
           <img src="./img/Dehya.png" alt="Dehya" />
         </a>
@@ -526,7 +530,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Mika">
         <a href="https://genshin-impact.fandom.com/wiki/Mika">
           <img src="./img/Mika.png" alt="Mika" />
         </a>
@@ -534,7 +538,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Baizhu">
         <a href="https://genshin-impact.fandom.com/wiki/Baizhu">
           <img src="./img/Baizhu.png" alt="Baizhu" />
         </a>
@@ -542,7 +546,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Kaveh">
         <a href="https://genshin-impact.fandom.com/wiki/Kaveh">
           <img src="./img/Kaveh.png" alt="Kaveh" />
         </a>
@@ -550,7 +554,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Kirara">
         <a href="https://genshin-impact.fandom.com/wiki/Kirara">
           <img src="./img/Kirara.jpg" alt="Kirara" />
         </a>
@@ -558,7 +562,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Lynette">
         <a href="https://genshin-impact.fandom.com/wiki/Lynette">
           <img src="./img/Lynette.jpg" alt="Lynette" />
         </a>
@@ -566,7 +570,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Lyney">
         <a href="https://genshin-impact.fandom.com/wiki/Lyney">
           <img src="./img/Lyney.png" alt="Lyney" />
         </a>
@@ -574,7 +578,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Freminet">
         <a href="https://genshin-impact.fandom.com/wiki/Freminet">
           <img src="./img/Freminet.jpg" alt="Freminet" />
         </a>
@@ -582,7 +586,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Neuvillette">
         <a href="https://genshin-impact.fandom.com/wiki/Neuvillette">
           <img src="./img/Neuvillette.jpg" alt="Neuvillette" />
         </a>
@@ -590,7 +594,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Wriothesley">
         <a href="https://genshin-impact.fandom.com/wiki/Wriothesley">
           <img src="./img/Wriothesley.png" alt="Wriothesley" />
         </a>
@@ -598,7 +602,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Charlotte">
         <a href="https://genshin-impact.fandom.com/wiki/Charlotte">
           <img src="./img/Charlotte.png" alt="Charlotte" />
         </a>
@@ -606,7 +610,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Furina">
         <a href="https://genshin-impact.fandom.com/wiki/Furina">
           <img src="./img/Furina.jpg" alt="Furina" />
         </a>
@@ -614,7 +618,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Navia">
         <a href="https://genshin-impact.fandom.com/wiki/Navia">
           <img src="./img/Navia.png" alt="Navia" />
         </a>
@@ -622,7 +626,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Chevreuse">
         <a href="https://genshin-impact.fandom.com/wiki/Chevreuse">
           <img src="./img/Chevreuse.jpg" alt="Chevreuse" />
         </a>
@@ -630,7 +634,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Gaming">
         <a href="https://genshin-impact.fandom.com/wiki/Gaming">
           <img src="./img/Gaming.jpeg" alt="Gaming" />
         </a>
@@ -638,7 +642,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Xianyun">
         <a href="https://genshin-impact.fandom.com/wiki/Xianyun">
           <img src="./img/Xianyun.png" alt="Xianyun" />
         </a>
@@ -646,7 +650,7 @@
         <p>Descrizione del personaggio e informazioni aggiuntive...</p>
       </div>
 
-      <div class="character">
+      <div class="character Chiori">
         <a href="https://genshin-impact.fandom.com/wiki/Chiori">
           <img src="./img/Chiori.jpg" alt="Chiori" />
         </a>
