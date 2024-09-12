@@ -1,0 +1,76 @@
+{
+  "hash": "d710dc2e",
+  "configHash": "3592e1aa",
+  "lockfileHash": "5431c88a",
+  "browserHash": "055b3f30",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "09f48416",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "3fd25602",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "13b2850f",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "b367d606",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "e8b6c475",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "8530ba70",
+      "needsInterop": false
+    },
+    "rxjs/operators": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/operators/index.js",
+      "file": "rxjs_operators.js",
+      "fileHash": "98c64fe9",
+      "needsInterop": false
+    },
+    "tslib": {
+      "src": "../../../../../node_modules/tslib/tslib.es6.mjs",
+      "file": "tslib.js",
+      "fileHash": "3763d73a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-J3AIKTPJ": {
+      "file": "chunk-J3AIKTPJ.js"
+    },
+    "chunk-736ZVBRV": {
+      "file": "chunk-736ZVBRV.js"
+    },
+    "chunk-R2WZOHXE": {
+      "file": "chunk-R2WZOHXE.js"
+    },
+    "chunk-RZTFSVT4": {
+      "file": "chunk-RZTFSVT4.js"
+    },
+    "chunk-OJEQ7CNB": {
+      "file": "chunk-OJEQ7CNB.js"
+    },
+    "chunk-QOHD3WUR": {
+      "file": "chunk-QOHD3WUR.js"
+    }
+  }
+}
